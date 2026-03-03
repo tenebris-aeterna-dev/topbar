@@ -1,0 +1,107 @@
+{
+  "name": "Default",
+  "className": "DataModel",
+  "children": [
+    {
+      "name": "ReplicatedStorage",
+      "className": "ReplicatedStorage",
+      "pluginManaged": true,
+      "children": [
+        {
+          "name": "topbar",
+          "className": "ModuleScript",
+          "pluginManaged": true,
+          "filePaths": [
+            "c:/Users/Sobbing Cat/Documents/git/tenebris-aeterna/topbar/src/shared/topbar/init.luau"
+          ],
+          "children": [
+            {
+              "name": "elements",
+              "className": "Folder",
+              "pluginManaged": true,
+              "children": [
+                {
+                  "name": "container",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/Sobbing Cat/Documents/git/tenebris-aeterna/topbar/src/shared/topbar/elements/container.luau"
+                  ]
+                },
+                {
+                  "name": "list",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/Sobbing Cat/Documents/git/tenebris-aeterna/topbar/src/shared/topbar/elements/list.luau"
+                  ]
+                },
+                {
+                  "name": "item",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/Sobbing Cat/Documents/git/tenebris-aeterna/topbar/src/shared/topbar/elements/item.luau"
+                  ]
+                },
+                {
+                  "name": "spacer",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/Sobbing Cat/Documents/git/tenebris-aeterna/topbar/src/shared/topbar/elements/spacer.luau"
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "types",
+              "className": "ModuleScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/Sobbing Cat/Documents/git/tenebris-aeterna/topbar/src/shared/topbar/types.luau"
+              ]
+            },
+            {
+              "name": "packages",
+              "className": "Folder",
+              "pluginManaged": true,
+              "children": [
+                {
+                  "name": "spr",
+                  "className": "ModuleScript",
+                  "pluginManaged": true,
+                  "filePaths": [
+                    "c:/Users/Sobbing Cat/Documents/git/tenebris-aeterna/topbar/src/shared/topbar/packages/spr.luau"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "StarterPlayer",
+      "className": "StarterPlayer",
+      "pluginManaged": true,
+      "children": [
+        {
+          "name": "StarterPlayerScripts",
+          "className": "StarterPlayerScripts",
+          "pluginManaged": true,
+          "children": [
+            {
+              "name": "test",
+              "className": "LocalScript",
+              "pluginManaged": true,
+              "filePaths": [
+                "c:/Users/Sobbing Cat/Documents/git/tenebris-aeterna/topbar/src/client/test.local.luau"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
